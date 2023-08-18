@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+    <title>Gerador de histórias</title>
+</head>
+<body>
+    <h1>Gerador de histórias aletórias</h1>
+    <p>Insira seu nome e selcione o idioma para gerar uma história</P>
+    <div class="nome__usuario">
+        <label for="usuario">Insira seu nome: </label>
+        <input id="usuario" type="text">
+    </div>
+    <div>
+        <a class="botao__idioma">
+            <label for="us">US</label>
+            <input id="us" type="radio" name="ukus" value="us" checked>
+        </a>
+        <a class="botao__idioma">
+            <label for="pt">PT</label>
+            <input id="pt" type="radio" name="ukus" value="pt">
+        </a>
+    </div>
+    <div>
+        <button class="botao">
+            Gerar história
+        </button>
+    </div>
+    <p class="historia"></p>
+</body>
+</html>
